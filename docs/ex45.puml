@@ -1,0 +1,13 @@
+@startuml
+class App {
++Scanner scan
++String filename
++String input
++String output
+
++void main()
++String replaceWords(String inputText)
++String readInput()
++void outputFile()
+}
+@enduml

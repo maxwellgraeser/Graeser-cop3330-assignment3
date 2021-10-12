@@ -1,0 +1,27 @@
+@startuml
+class App {
+-String name
+-String author
+-String js
+-String css
+String output
+
++void main()
++void getInput()
++void out()
+}
+class websiteGenerator {
++String run()
++String folder()
++String html()
++String jsFolder()
++String cssFolder()
+
++String name
++String author
++String js
++String css
++String path
+}
+App <-- websiteGenerator
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+class App {
++ void main()
++ List<String> readInput()
++ void sort()
++ void outputFile()
++List<String> names
+}
+@enduml

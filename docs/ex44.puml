@@ -1,0 +1,12 @@
+@startuml
+class App {
++void main()
++String getInput()
++boolean productCheck(String target, JSONArray jArray)
++void printOutput(String target, JSONArray jArray)
+
++String input
++JSONParser
++JSONObject jsonObject
+}
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+class App {
++String input
++Map<String, String> frequency
+
++void main()
++String readInput()
++Map<String, String> getFreq(String text)
++void printOutput(Map<String, String> output)
+}
+@enduml

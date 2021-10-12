@@ -1,0 +1,8 @@
+@startuml
+class App {
++void main()
++String readInput()
++void printOutput(String output)
++String data
+}
+@enduml
